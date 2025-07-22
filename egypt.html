@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 style="background-color: #4a90e2;" class="text-center text-white p-3">Egypt</h1>
+    <!-- carousel -->
+     <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://shayan5785.github.io/Wanderlust-Travel-Agency/images/img3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://shayan5785.github.io/Wanderlust-Travel-Agency/images/img2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://shayan5785.github.io/Wanderlust-Travel-Agency/images/img1.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<div class="row m-5">
+  <div class="col">
+    <div class="card">
+      <div class="card-header">
+        History
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">A Rich History</h5>
+        <p class="card-text">Constructed as a tomb around 2580-2560 BC for the Egyptian Pharaoh Khufu, the Great Pyramid is a testament to ancient Egypt's architectural genius and ingenuity</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card">
+      <div class="card-header">
+       Architecture
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Archictural Mastery</h5>
+        <p class="card-text">The pyramid was orignally built at 146.6 meters tall, with an orignal casing of highly polished white limestone meant to reflect the sun's rays and make the pyramid shine like a jewel</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col">
+    <div class="card">
+      <div class="card-header">
+       Exploration
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Explore Inside</h5>
+        <p class="card-text">The interior chambers of the pyramid are open to visitors, including the Queen's Chamber, The Grand Gallery and the awe inspiring King's Chamber with its granite sarcophagus</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container my-4 py-4 bg-body-secondary rounded">
+<p>Ready to Explore? Dive into your next great adventure with ease and excitement! Whether you're looking to unwind on sun soaked beaches, explore ancient ruins, or enjoy the bustle of a vibrant city, we have the perfect trip waiting for you. Don't miss out on our exclusive deals designed to create unforgettable memories. Tap the button below to book your journey and start packing for the trip of a lifetime! </p>
+
+
+   <div class="d-flex justify-content-center">
+   <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Book Your Trip
+   </button>
+  
+    <a class= "btn btn-outline-primary" href="./index.html"> Back to Home</a>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Trip Booking Form</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <label>Name</label>
+            <input type="text" class="form-control mb-3" placeholders="Enter your name">
+
+            <label>Email Address</label>
+            <input type="text" class="form-control" placeholders="Enter your email">
+            <p class="mb-3">We'll never share your emai with anyone else </p>
+
+            <label>Date of visit</label>
+            <input type="date" class="form-control mb-3">
+
+             <label>Number of visitors</label>
+            <input type="number" class="form-control mb-3" placeholder="How many people are coming?">
+            
+            <label>Type of Tour</label>
+            <select class="form-select">
+              <option>Private Tour</option>
+              <option>Group Tour</option>
+              <option>Family Package</option>
+              <option>Educational Tour</option>
+            </select>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a href="./thankyou.html" class="btn btn-primary">Submit</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        What are the visiting hours?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        The Great Pyramid of Giza is open to visitors from 8 AM to 4 PM daily. Special might visits can be arranged in advance 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        How can I purchase tickets?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Tickets can be purchased at the site or through various travel agencies. It is advisable to buy them in advance during peak tourist seasons.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Any tips for first time visitors?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Be sure to wear comfortable walking shoes , bring a hat and sunscreen for protection against the sun, and always stay hydrated. Consider hiring a guide to enrich your understanding of the pyramid's history and details.
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
